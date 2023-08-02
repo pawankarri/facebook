@@ -19,3 +19,9 @@ margin: 15px 0px 0px 10px;
  margin: 10px;
  font-size: 14px;
 }
+.middle_container{
+    margin-left: 50px !important;
+    overflow-y: scroll;
+    height: 650px;
+    max-width: 600px !important;
+}

@@ -51,7 +51,10 @@ class Leftside extends Component {
         return ( <div>
             {
                 this.state.data.map((item)=>{
+                    return(
 <ImageLayout image={item.image} text={item.text}/>
+                    )
+
                 })
             }
             
